@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Predição</title>
+</head>
+
+<body>
+    <h1 class="titulo">Resultado da Predição</h1>
+    <section class="elementos">
+        <div class="conteudo">
+            <p>Valor Previsto de vendas: {{ predicao }}
+            <h2 class="sub_titulo">Associações</h2>
+            {{ associacoes | safe}}
+            </p>
+        </div><!-- .conteudo -->
+    </section><!-- .elementos -->
+
+</body>
+
+</html>
